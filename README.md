@@ -12,8 +12,8 @@ This is a restaurant mobile application for school project . Made By [YAHIAOUI I
 
 Clone the repo:
 ```sh
-git clone git@github.com:kunalkapadia/express-mongoose-es6-rest-api.git
-cd express-mongoose-es6-rest-api
+git clone git@github.com:issamYahiaoui/Apetito_API.git
+cd Apetito_API
 ```
 
 Install yarn:
@@ -37,7 +37,7 @@ Start server:
 yarn start
 
 # Selectively set DEBUG env var to get logs
-DEBUG=express-mongoose-es6-rest-api:* yarn start
+DEBUG=Apetito_API:* yarn start
 ```
 Refer [debug](https://www.npmjs.com/package/debug) to know how to selectively turn on logs.
 
