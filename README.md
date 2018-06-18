@@ -108,10 +108,10 @@ bash bin/development.sh
 # To use this option you need to make sure mongodb is listening on port 27017
 
 # Build docker 
-docker build -t express-mongoose-es6-rest-api .
+docker build -t Apetito_API .
 
 # Run docker
-docker run -p 4040:4040 express-mongoose-es6-rest-api
+docker run -p 4040:4040 Apetito_API
 ```
 
 
