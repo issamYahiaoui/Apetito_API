@@ -1,4 +1,4 @@
-# Apetito ! Restaurant Mobile App[![Awesome]
+# Apetito ! Restaurant Mobile App
 
 
 
