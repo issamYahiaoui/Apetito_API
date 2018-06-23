@@ -4,6 +4,6 @@ const {Category} = require('../../../models');
 
 const router = express.Router(); // eslint-disable-line new-cap
 
-restify.serve(router, Category);
+restify.serve(router, Category,{lean: false});
 
 module.exports = router;

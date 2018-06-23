@@ -20,7 +20,7 @@ const app = express();
 if (config.env === 'development') {
   app.use(logger('dev'));
 }
-
+app.use(express.static('public'));
 // parse body params and attache them to req.body
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
