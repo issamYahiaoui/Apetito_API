@@ -12,7 +12,10 @@ const BinarySchema = new mongoose.Schema({
   price: {
     type: Number,
   },
-  dishes: [{ type: mongoose.Schema.Types.ObjectId }],
+
+  restaurant_id: {
+    type: String,
+  },
   createdAt: {
     type: Date,
     default: Date.now

@@ -15,6 +15,9 @@ const CartItemSchema = new mongoose.Schema({
   totalPrice: {
     type: Number,
   },
+  dish_id: {
+    type: String,
+  },
   createdAt: {
     type: Date,
     default: Date.now

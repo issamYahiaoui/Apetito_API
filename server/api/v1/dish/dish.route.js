@@ -39,4 +39,18 @@ const   getResultObject = (dish)=> {
 }  
 restify.serve(router, Dish,{lean: false});
 
+
+router.get('/api/v1/Dishes/:id', (req, res) =>{
+    id = req.params.id
+    result = []
+    Dish.find({category_id : id}).exec(  function(err, dishes) {
+        console.log(dishes)
+        res.json(dishes)
+        
+      });
+
+}  
+
+
+);
 module.exports = router;

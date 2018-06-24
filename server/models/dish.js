@@ -15,8 +15,15 @@ const DishSchema = new mongoose.Schema({
   price: {
     type: Number,
   },
-  category: { type: mongoose.Schema.Types.ObjectId },
-  restaurant: { type: mongoose.Schema.Types.ObjectId },
+  restaurant_id: {
+    type: String,
+  },
+  category_id: {
+    type: String,
+  },
+  binary_id: {
+    type: String,
+  },
   createdAt: {
     type: Date,
     default: Date.now
