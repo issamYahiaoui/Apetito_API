@@ -5,10 +5,7 @@ const mongoose = require('mongoose');
  * Binary Schema
  */
 const CartItemSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: true
-  },
+
   quantity: {
     type: Number,
   },
@@ -17,6 +14,7 @@ const CartItemSchema = new mongoose.Schema({
   },
   dish_id: {
     type: String,
+    require : true
   },
   createdAt: {
     type: Date,
