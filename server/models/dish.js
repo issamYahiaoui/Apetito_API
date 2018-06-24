@@ -21,6 +21,9 @@ const DishSchema = new mongoose.Schema({
   category_id: {
     type: String,
   },
+  imageUrl: {
+    type: String,
+  },
   binary_id: {
     type: String,
   },
